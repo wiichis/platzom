@@ -21,8 +21,15 @@
   "author": "Sacha Lifszyc <sacha.lifszyc@gmail.com> (https://twitter.com/slifszyc)",
   "license": "MIT",
   "devDependencies": {
+<<<<<<< HEAD
     "babel-cli": "^6.26.0",
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
+=======
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+>>>>>>> 95959bf9948eb6259ddf6164ffcfba2a640c8b98
   }
 }

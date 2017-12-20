@@ -12,13 +12,22 @@ function platzom(str) {
     translation = str.slice(0, -2);
   }
 
+<<<<<<< HEAD
   // Si la palabra inicia con Z, se le aÃ±ade "pe" al final.
+=======
+  // Si la palabra inicia con Z, se le añade "pe" al final.
+>>>>>>> 95959bf9948eb6259ddf6164ffcfba2a640c8b98
   if (str.toLowerCase().startsWith("z")) {
     translation += "pe";
   }
 
+<<<<<<< HEAD
   // Si la palabra traducida tiene 10 o mÃ¡s letras,
   // se debe partir en dos por la mitad y unir con un guiÃ³n medio
+=======
+  // Si la palabra traducida tiene 10 o más letras,
+  // se debe partir en dos por la mitad y unir con un guión medio
+>>>>>>> 95959bf9948eb6259ddf6164ffcfba2a640c8b98
   var length = translation.length;
   if (length >= 10) {
     var firstHalf = translation.slice(0, Math.round(length / 2));
@@ -44,9 +53,15 @@ function platzom(str) {
     return str.split('').reverse().join('');
   }
 
+<<<<<<< HEAD
   // Por Ãºltimo, si la palabra original es un palÃ­ndromo,
   // ninguna regla anterior cuenta y se devuelve la misma palabra pero
   // intercalando letras mayÃºsculas y minÃºsculas
+=======
+  // Por último, si la palabra original es un palíndromo,
+  // ninguna regla anterior cuenta y se devuelve la misma palabra pero
+  // intercalando letras mayúsculas y minúsculas
+>>>>>>> 95959bf9948eb6259ddf6164ffcfba2a640c8b98
   if (str == reverse(str)) {
     return minMay(str);
   }
