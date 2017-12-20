@@ -18,7 +18,7 @@
     "javascript",
     "js"
   ],
-  "author": "Sacha Lifszyc <sacha.lifszyc@gmail.com> (https://twitter.com/slifszyc)",
+  "author": "Wilson Montenegro <wilmontenegro@me.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
