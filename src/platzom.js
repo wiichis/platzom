@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -25,10 +25,9 @@ function platzom(str) {
     var firstHalf = translation.slice(0, Math.round(length / 2));
     var secondHalf = translation.slice(Math.round(length / 2));
     translation = firstHalf + "-" + secondHalf;
-=======
 export default function platzom(str) {
   let translation = str;
-  
+
   // Si la palabra termina con "ar", se le quitan esas dos letras
   if (str.toLowerCase().endsWith("ar")) {
     translation = str.slice(0, -2)
@@ -46,12 +45,10 @@ export default function platzom(str) {
     const firstHalf = translation.slice(0, Math.round(length / 2))
     const secondHalf = translation.slice(Math.round(length / 2))
     translation = `${firstHalf}-${secondHalf}`
->>>>>>> 95959bf9948eb6259ddf6164ffcfba2a640c8b98
     // translation = [firstHalf, secondHalf].join('-')
   }
 
   function minMay(str) {
-<<<<<<< HEAD
     var length = str.length;
     var translation = '';
     var capitalize = true;
@@ -76,7 +73,6 @@ export default function platzom(str) {
   }
 
   return translation;
-=======
     const length = str.length
     let translation = ''
     let capitalize = true
@@ -101,5 +97,4 @@ export default function platzom(str) {
   }
 
   return translation
->>>>>>> 95959bf9948eb6259ddf6164ffcfba2a640c8b98
 }
