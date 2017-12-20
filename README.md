@@ -22,7 +22,6 @@ npm install platzom
 ```
 import platzom from 'platzom'
 
->>>>>>> 95959bf9948eb6259ddf6164ffcfba2a640c8b98
 platzom("Programar") // Program
 platzom("Zorro") // Zorrope
 platzom("Zarpar") // Zarppe
